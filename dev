@@ -1,0 +1,27 @@
+ docker build -t img .
+docker run --name demo img
+docker tag img vikasjain10
+docker tag img vikasjain10/tagname:version
+docker images
+ docker login -u vikasjain10
+password
+ docker push vikasjain10/tagname:version
+public class a{
+    public static void main(String [] args){
+      System.out.print("hello world");        
+    }
+}
+
+docker run mysql
+docker run -e MYSQL_ROOT_PASSWORD="admin" -d mysql
+new
+docker run -it mysql /bin/bash
+old
+docker container ls
+docker inspect name
+new 
+ mysql -h 172.17.0.2 -u root -p
+create database db
+use db
+
+
